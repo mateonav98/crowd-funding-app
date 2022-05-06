@@ -1,0 +1,11 @@
+{{#each projects as |project| }}
+<div class="row align-center mb-5">
+  <div class="col-md-6">
+    <h2>{{{project.name}}} {{project.needed_funding}}</h2>
+  </div>
+  <div class="col-md-6">
+      <h2>{{project.description}}</h2>
+    {{!-- <h3><a href="mailto:{{user.email}}">{{user.email}}</a></h3> --}}
+  </div>
+</div>
+{{/each}}
